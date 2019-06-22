@@ -1,0 +1,103 @@
+@charset "utf-8";
+html {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height: 100%;
+	min-height: 640px;
+}
+body {
+	height: 100%;
+	min-height: 640px;
+background-color: #000000;
+}
+
+
+@font-face
+{
+	font-family: BuxtonSketch;
+	src: url(../fonts/BuxtonSketch.ttf);
+}
+#main-holder {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	height: 90%;
+	min-height: 600px;
+}
+#header-holder {
+	height: 70px;
+	width: 960px;
+	padding-top: 30px;
+	position: relative;
+}
+
+#logo-holder {
+	height: 30px;
+	width: 200px;
+	margin-right: auto;
+	position: relative;
+	font-family: BuxtonSketch;
+	font-size: 25px;
+	margin-left: 130px;
+}
+
+#header-holder ul {
+	position: relative;
+	height: 25px;
+	width: 415px;
+	margin-right: auto;
+	margin-left: 130px;
+	display: block;
+	text-align: justify;
+}
+#header-holder ul li {
+	display: block;
+	float: left;
+}
+
+#header-holder ul li a {
+	color: #4a4a4a;
+	font-size: 13px;
+	font-style: normal;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#header-holder ul li a:hover {
+	color: #fff;
+
+}
+
+#content-holder {
+	height: 500px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#footer-holder {
+	position: relative;
+	height: 10%;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 100;
+	min-height: 40px;
+}
+#copyright-holder {
+	float: left;
+	height: 30px;
+	width: 300px;
+	position: relative;
+	color: #323232;
+	padding-top: 10px;
+}
+#copyright-holder h6 {
+	font-weight: 200;
+}
+
+
+
+.fixer {
+	clear: both;
+}

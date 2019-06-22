@@ -1,0 +1,251 @@
+@charset "utf-8";
+/*Home page*/
+#sign-holder {
+	height: 230px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+/*End-Home page*/
+/*Artwork page*/
+#artwork-holder {
+	position: relative;
+	height: 500px;
+	width: 700px;
+	overflow: hidden;
+}
+#artwork-menu-holder {
+	float: left;
+	height: 500px;
+	width: 200px;
+	position: relative;
+}
+#artwork-menu-holder ul {
+	height: 480px;
+	width: 200px;
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+#artwork-menu-holder ul li {
+	display: block;
+}
+#artwork-menu-holder ul li a {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	color: #4a4a4a;
+	display: block;
+}
+#artwork-menu-holder ul li a:hover {
+	color: #fff;
+}
+#artwork-btn-holder {
+	display: block;
+	position: relative;
+	height: 20px;
+	width: 200px;
+}
+#artwork-span-holder {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #4a4a4a;
+}
+#picture-artwork-holder {
+	float: left;
+	position: relative;
+	max-height: 500px;
+	max-width: 500px;
+}
+#artwork-btn-holder a {
+	cursor: pointer;
+}
+
+/*End Artwork page*/
+/*Me-Contact*/
+#biography {
+	float: right;
+	height: 500px;
+	width: 170px;
+	position: relative;
+}
+#biopic {
+	position: relative;
+	height: 170px;
+	width: 170px;
+}
+#biotext {
+	position: relative;
+	height: 300px;
+	width: 170px;
+	direction: ltr;
+}
+#biotext h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 100;
+}
+#biotext h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 100;
+}
+#biotext h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 100;
+}
+#biotext p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#contact-holder {
+	float: right;
+	height: 500px;
+	width: 455px;
+	position: relative;
+}
+#table-holder {
+	height: 270px;
+	width: 350px;
+	position: relative;
+	font-size: 13px;
+}
+#table-holder table tr td {
+	text-align: right;
+}
+
+input,textarea {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	height: 20px;
+	width: 260px;
+	background-color: #CCC;
+}
+#submit {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	height: 30px;
+	width: 70px;
+}
+textarea {
+	height: 150px;
+}
+
+
+
+
+/*End Me-Contact*/
+/*یادداشتها*/
+#assay-menu-holder {
+	height: 500px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	direction: rtl;
+}
+#assay-menu-holder a {
+color: #666666;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+#assay-menu-holder a:hover {
+color: #fff;
+}
+#assay-holder {
+	position: relative;
+
+
+
+	overflow=: hidden;
+	height: 500px;
+	width: 700px;
+	direction: rtl;
+	overflow: hidden;
+}
+#assay-head-holder {
+padding-right: 15px;
+	overflow: hidden;
+	position: relative;
+	height: 35px;
+	width: 685px;
+background-color: #fff;
+}
+
+#assay-content-holder {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 410px;
+	width: 670px;
+	text-align: justify;
+	padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #b1b1b1;
+}
+#assay-footer-holder {
+	position: relative;
+	height: 25px;
+	width: 700px;
+}
+#assay-footer-content-holder {
+	float: left;
+	height: 18px;
+	width: 583px;
+	position: relative;
+	text-align: left;
+	padding-left: 17px;
+	padding-top: 7px;
+}
+#assay-footer-content-holder h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#assay-footer-navigation-holder {
+	float: left;
+	height: 17px;
+	width: 100px;
+	position: relative;
+	padding-top: 8px;
+}
+#btn-left-holder {
+	float: right;
+	height: 12px;
+	width: 6px;
+	position: relative;
+	padding-right: 10px;
+	margin-left: 15px;
+}
+#btn-menu-holder {
+	float: right;
+	height: 12px;
+	width: 6px;
+	position: relative;
+	padding-right: 10px;
+	margin-left: 10px;
+}
+#btn-right-holder {
+	float: right;
+	height: 12px;
+	width: 6px;
+	position: relative;
+}
+/*endیادداشتها*/
